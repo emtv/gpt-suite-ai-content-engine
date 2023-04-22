@@ -1,0 +1,14 @@
+.section-danger {
+    border:dashed red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.section-danger h2,.section-danger h4 {
+    color: red;
+}
+
+.section-danger input {
+    background: red !important;
+    border-color: red !important;
+}
