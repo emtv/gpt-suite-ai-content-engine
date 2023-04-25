@@ -75,9 +75,9 @@
 
 
     if (isset($_POST['create_descriptions']) && wp_verify_nonce($_POST['create_descriptions_nonce_field'], 'create_descriptions_nonce')) {
-        pdcgpt_crear_descripciones();
+        gsce_crear_descripciones();
     } elseif (isset($_POST['improve_descriptions']) && wp_verify_nonce($_POST['improve_descriptions_nonce_field'], 'improve_descriptions_nonce')) {
-        pdcgpt_improve_descriptions();
+        gsce_improve_descriptions();
     }
 
 

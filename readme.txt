@@ -1,8 +1,9 @@
-=== Plugin Name ===
+=== GPT Suite AI Content Engine ===
 Contributors: Edgardo Tupiño
-Tags: wordpress, plugin, ecommerce
+Tags: wordpress, plugin, ecommerce, ai, gpt, artifial inteligence, online store
 Requires at least: 1.0.0
-Tested up to: 1.0.0
+Tested up to: 6.1
+Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPL-2.0+
 License URI: https://www.gnu.org/licenses/gpl-2.0.txt

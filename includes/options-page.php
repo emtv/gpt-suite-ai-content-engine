@@ -10,7 +10,7 @@ function chatgpt_options_page() {
 // Función para crear la primera pestaña del plugin
 function chatgpt_general_settings_page() {
     // Contenido de la pestaña "General"
-    pdcgpt_generar_descripciones();
+    gsce_generar_descripciones();
 }
 
 // Función para crear la segunda pestaña del plugin
@@ -27,8 +27,8 @@ function chatgpt_configuration_settings_page() {
 // Función para crear la tercera pestaña del plugin
 function chatgpt_importer_settings_page() {
     // Contenido de la pestaña "Importador"
-    pdcgpt_chatgpt_import_csv();
-    pdcgpt_handle_csv();
+    gsce_chatgpt_import_csv();
+    gsce_handle_csv();
 }
 
 // Función para crear la cuarta pestaña del plugin
